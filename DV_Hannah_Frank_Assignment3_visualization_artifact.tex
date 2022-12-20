@@ -1,6 +1,8 @@
 % Define document class and geometry
+% Sources: https://en.wikibooks.org/wiki/LaTeX/Document_Structure#The_document_environment
+% https://www.overleaf.com/learn/latex/Page_size_and_margins
 \documentclass[12pt]{article}
-\usepackage[bottom = 27mm, right = 30mm, top = 27mm, left=30mm]{geometry}
+\usepackage[bottom = 27mm, right = 30mm, top = 27mm, left = 30mm]{geometry}
 
 % Include hyperlinks
 % Source: https://ctan.org/pkg/hyperref?lang=en
@@ -20,10 +22,6 @@
 % Source: https://ctan.org/pkg/animate
 \usepackage{animate}
 
-% Needed to produce aminations
-% Source: https://ctan.org/pkg/media9
-\usepackage{media9}
-
 % Include graphs
 % Source: https://ctan.org/pkg/graphicx
 \usepackage{graphicx}
@@ -38,7 +36,7 @@
 % Source: https://tex.stackexchange.com/questions/83860/remove-page-number-from-just-one-float-page
 \thispagestyle{empty}
 
-% Begin centring
+% Begin centering
 \begin{center}
 
 % Generate animations based on single frames, including a control panel
